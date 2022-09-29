@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        
+        <form action="">
+            <fieldset>
+                <legend>Formulário de cadastro para o evento!</legend>
+                <p>
+                        <p><label for="Nome" hidden>Nome</label></p>
+                        <input type="text" required= true id="Nome" placeholder="Digite seu nome aqui" cols="50">
+                    </p>
+                    <p>
+                        <p><label for="e-mail" hidden>e-mail</label></p>
+                        <input type="text" required= true id="e-mail" placeholder="Digite se e-mail aqui">
+
+                    </p>
+                    <p>
+                        <label for="Mensagem" hidden>Descreva aqui o que o motivou a participar do evento:</label>
+                    </p>    
+                    <textarea name="Mensagem" id="Mensagem" cols="50" rows="10" placeholder="Fale mais sobre vôce"></textarea>
+                </p>
+                <p>
+                    <label for="modulo" hidden>Selecione o seu módulo no curso:</label>
+                    <p>
+                        <select name="modulo" id="modulo" required placeholder="Escolher modulo" cols="50">
+                            <option value="">Escolher módulo</option>
+                            <option value="modulo">Módulo 1</option>
+                            <option value="modulo">Módulo 2</option>
+                            <option value="modulo">Módulo 3</option>
+                            <option value="modulo">Módulo 4</option>
+                            <option value="modulo">Módulo 5</option>
+                            <option value="modulo">Módulo 6</option>
+                            <option value="modulo">Módulo 7</option>
+                            <option value="modulo">Módulo 8</option>
+                            <option value="modulo">Módulo 9</option>
+                            <option value="modulo">Módulo 10</option>
+                            <option value="modulo">Módulo 11</option>
+                            <option value="modulo">Módulo 12</option>
+                            <option value="modulo">Módulo 13</option>
+                            <option value="modulo">Módulo 14</option>   
+                        </select>
+                    </p>
+                </p>
+                <p>
+                    <p><label for="password1">Digite aqui sua senha:</label></p>
+                    <input type="password" id="password1" required="true" placeholder="Digite sua senha aqui..." minlength="4" maxlength="8"> <span>( Máximo de 8 dígitos)</span>
+                </p>
+                <p>
+                    <p><label for="password1">Confirmar senha:</label></p>
+                    <input type="password" id="password1" required="true" placeholder="Digite novamente sua senha aqui..." minlength="4" maxlength="8"><span>( Máximo de 8 dígitos)</span>
+                </p>
+                <p>
+                    <p>Deseja receber novidades por e-mail?</p>
+                </p>
+                <p>
+                    <label for="Sim">Sim</label>
+                    <input type="radio" id="Sim" name="novidades" value="sim">
+                    <label for="Não">Não</label>
+                    <input type="radio" id="Não" name="novidades" value="não">
+                </p>
+                <p>
+                    <input type="submit" name="" id="">
+                    <button type="submit" hidden>Enviar</button>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+    </html>
